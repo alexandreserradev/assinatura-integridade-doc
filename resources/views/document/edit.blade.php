@@ -20,7 +20,7 @@
                         <button type="submit" class="btn btn-light btn-outline-info"><ion-icon size="large" name="pencil-outline"></ion-icon>Assinar</button>
 
                     </form>
-                    <a href="{{ route('validar.documento', $document->id) }}" class="btn btn-light btn-outline-info ml-2"><ion-icon size="large" name="qr-code-outline"></ion-icon>Validar</a>
+                    <a href="{{ route('validar.documento', $document->id) }}" target="_blank" class="btn btn-light btn-outline-info ml-2"><ion-icon size="large" name="qr-code-outline"></ion-icon>Validar</a>
                 </div>
 
                 <div class="card-body">
